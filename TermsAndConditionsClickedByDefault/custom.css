@@ -1,0 +1,25 @@
+.float-xs-left > .custom-checkbox > input {
+    display: none !important;
+  }
+  
+  #checkout-payment-step-check .js-terms {
+    pointer-events: none;
+  }
+  
+  #conditions-to-approve > ul > li > .condition-label > .js-terms:after {
+    display: none !important;
+  }
+  
+  .page--checkout .cart-container section .content .form--conditions label {
+    font-size: 12px !important;
+    margin-bottom: 0;
+  }
+  
+  .button-terms {
+    font-size: 12px;
+  }
+  
+  .page--checkout #payment-confirmation button {
+    cursor: pointer;
+    opacity: unset;
+  }

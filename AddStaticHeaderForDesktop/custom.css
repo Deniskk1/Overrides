@@ -1,0 +1,80 @@
+.js-algolia {
+    .block__filters-sort {
+      @media (min-width: 990px) and (max-width: 1250px) {
+        margin-top: 16em !important;
+        display: flex;
+      }
+  
+      @media (min-width: 1251px) {
+        margin-top: 10em !important;
+        display: flex;
+      }
+    }
+  }
+  
+  @media (min-width: 990px) {
+    #header {
+      position: fixed;
+      transition: top 0.3s ease-in-out;
+    }
+  
+    #header #soomagicmenu-main {
+      margin-top: -1px !important;
+    }
+  
+    #wrapper {
+      top: 10rem;
+    }
+  
+    #product #footer {
+      margin-top: 15rem;
+    }
+  
+    #index .bloc__suggested-products {
+      margin-bottom: 10rem;
+    }
+  
+    .page-category #wrapper {
+      position: relative;
+    }
+  
+    #category {
+      overflow: hidden;
+    }
+  
+    #cart #header,
+    #checkout #header {
+      position: relative;
+      z-index: 3;
+    }
+  
+    .bloc__suggested-products-algolia {
+      margin-top: 10rem;
+    }
+  
+    .page-content,
+    #address .address-form,
+    #module-oneshop_member-identity .form-footer,
+    #module-oneshop_member-purchases .my-1 {
+      margin-bottom: 10rem !important;
+    }
+  
+    .cms-id-61 .elementor-element-n9197ca,
+    .cms-id-62 .elementor-element-n9197ca,
+    .cms-id-63 .elementor-element-n9197ca,
+    .cms-id-64 .elementor-element-n9197ca,
+    .cms-id-65 .elementor-element-n9197ca,
+    .cms-id-66 .elementor-element-n9197ca,
+    .cms-id-67 .elementor-element-n9197ca,
+    .cms-id-68 .elementor-element-n9197ca,
+    .cms-id-69 .elementor-element-n9197ca,
+    .cms-id-70 .elementor-element-n9197ca,
+    .cms-id-108 .elementor-element-n9197ca {
+      margin-top: -24rem;
+    }
+  
+    /* Repair campaign - LP */
+    .cms-id-111 .elementor-element-3u4idl3 {
+      margin-top: -11rem;
+    }
+  }

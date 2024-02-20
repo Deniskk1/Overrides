@@ -1,0 +1,27 @@
+.newpay-banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0.8rem;
+    margin-bottom: 0.2rem;
+  }
+  
+  .newpay-img {
+    width: 30%;
+    margin-right: 10px;
+    float: left;
+  }
+  
+  .newpay-text {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .newpay-banner {
+      margin-top: 0.6rem;
+      margin-bottom: 0;
+    }
+  }
