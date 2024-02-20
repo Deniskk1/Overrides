@@ -1,0 +1,134 @@
+@media screen and (max-width: 599px) {
+    .US_container {
+        font-family: Roboto Condensed, sans-serif;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .US_container a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .US_item {
+        margin: 5px;
+        display: flex;
+        background: #f2f2f2;
+        align-items: center;
+        border-radius: 15px;
+    }
+
+    .US_item:hover {
+        background: white;
+        transition: all 0.2s;
+    }
+
+    .US_item img {
+        mix-blend-mode: multiply;
+        max-width: 50px;
+        margin: 0 20px;
+    }
+
+    .US_content p {
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 14px;
+        overflow-wrap: break-word;
+        margin: 0;
+    }
+
+    .catalog-camping {
+        margin: 0 15px 0 15px;
+    }
+
+    .US_item .catalog-img {
+        margin-left: 5px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .US_container {
+        font-family: Roboto Condensed, sans-serif;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .US_container a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .US_item {
+        border: 2px solid #f2f2f2;
+        margin: 5px;
+        display: flex;
+        background: #f2f2f2;
+        padding: 5px;
+        flex-direction: row;
+        align-items: center;
+        border-radius: 15px;
+        transition: all 0.2s;
+    }
+
+    .US_item:hover {
+        background: white;
+        transition: all 0.2s;
+    }
+
+    .US_item img {
+        mix-blend-mode: multiply;
+        max-width: 50px;
+        margin: 0 15px 0 5px;
+    }
+
+    .US_content {
+        width: 100%;
+    }
+
+    .US_content p {
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 14px;
+        overflow-wrap: break-word;
+        margin: 0 10px 0 0;
+        /* margin-right: 10px; */
+    }
+}
+
+.catalog-camping {
+    background-color: #23a94245;
+    border: 1px solid #000000;
+    animation: pulse 2s infinite;
+}
+
+.catalog-txt {
+    color: black;
+    font-weight: 800;
+}
+
+.catalog-img {
+    transform: rotate(50deg);
+}
+
+.category-id-4621 .block__subcategories--group .block--subcategories {
+    display: none;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
