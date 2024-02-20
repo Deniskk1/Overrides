@@ -1,0 +1,10 @@
+.points-sticker {
+    width: 65%;
+}
+
+@media (max-width: 600px) {
+    .points-sticker {
+        width: 60%;
+        margin-top: 1rem;
+    }
+}
