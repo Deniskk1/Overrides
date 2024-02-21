@@ -253,7 +253,7 @@ span.menu-header1-magic-menu {
 }
 
 /* Fix pages to be end to end */
-.elementor-2 .elementor-element.elementor-element-lbmdjse>.elementor-container {
+.elementor-section.elementor-section-boxed>.elementor-container {
     max-width: 100% !important;
 }
 
