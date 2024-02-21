@@ -12,12 +12,9 @@
         align-items: center;
     }
 
-    #soomagicmenu-main .root-8 {
-        padding: 10px 0px !important;
-    }
-
+    #soomagicmenu-main .root-8,
     #soomagicmenu-main .root-13 {
-        padding: 10px 5px 10px 10px !important;
+        padding: 10px 0px !important;
     }
 
     #soomagicmenu-main .root-8 .weroot-8,
